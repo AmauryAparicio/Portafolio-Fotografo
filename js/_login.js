@@ -1,0 +1,1 @@
+"use strict";function default_1(e,r){r.username===e.username&&r.password===e.password&&(localStorage.setItem("username",r.username),_logedin_1.default())}Object.defineProperty(exports,"__esModule",{value:!0});var _logedin_1=require("./_logedin");exports.default=default_1;
